@@ -68,7 +68,27 @@
 
 @media screen and (max-width: 500px) {
     .signup_logo{
-        width: 9rem;
-        height: 2rem;
+        width: 7rem;
+        height: 3rem;
+        left: 0;
+        margin: 0rem 1rem;
+    }
+    .signup_form{
+        max-width: 100%;
+        padding: 2rem 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(0, 0, 0,0.85);
+        margin-top: 3rem;
+    }
+    .signup_form input{
+        width: 100%;
+    }
+    .signup_form h4 {
+        font-size: 0.8rem;
+    }
+    .signup_form button{
+        padding: 0.4rem;
+        font-size: 1.1rem;
     }
 }

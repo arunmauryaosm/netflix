@@ -34,3 +34,22 @@
     color: whitesmoke;
 
 }
+@media screen and (max-width: 500px) {
+    .row_title{
+        color: whitesmoke;
+        margin-left: 1.2rem;
+        margin-top: 0.8rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding-top: 1rem;
+        
+    }
+    .row_posterLarge {
+        max-height: 20rem;
+        height: 15rem;
+    }
+    .row_poster{
+        height: 15rem;
+        width: 15rem;
+    }
+}
