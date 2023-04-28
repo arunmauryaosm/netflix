@@ -1,0 +1,36 @@
+.row_title{
+    color: whitesmoke;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.row_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 2rem;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_poster{
+    max-height: 10rem;
+    margin: 0rem 1rem;
+    object-fit: contain;
+    transition: transform 450ms;
+}
+
+.row_poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+.row_posterLarge {
+    max-height: 20rem;
+}
+.row_name{
+    position: absolute;
+    color: whitesmoke;
+
+}

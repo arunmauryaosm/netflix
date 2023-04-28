@@ -1,0 +1,54 @@
+.profile{
+    display: flex;
+    color: whitesmoke;
+    height: 100vh;
+    
+}
+.profile_section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    max-width: 800px;
+}
+.profile_logo{
+    margin: 0rem 1rem;
+    color: red;
+}
+.profile_details{
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+.profile_details h1{
+    font-weight: 500;
+}
+.profile_details h3{
+    font-weight: 500;
+    background-color: rgb(100, 100, 100);
+    padding: 0.3rem 1rem ;
+}
+.profile_plans{
+    padding: 1rem 0rem;
+}
+.profile_plans h4{
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.profile_plans button{
+    color: whitesmoke;
+    background-color: red;
+    padding: 0.5rem;
+    font-weight: 550;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+    .profile_section{
+        display: table-column;
+        max-width: 600px;
+        margin-top: 10rem;
+    }
+}

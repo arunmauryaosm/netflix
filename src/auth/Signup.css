@@ -1,0 +1,74 @@
+.signup{
+    position: relative;
+    height: 100vh;
+    background: url("../images/login.jpg") center no-repeat;
+    background-size: cover;
+    padding: auto;
+    margin: auto;
+}
+.signup_logos{
+    position: relative;
+}
+.signup_logo{
+    left: 0;
+    width: 12rem;
+    height: 3rem;
+    margin: 0rem 2rem;
+    cursor: pointer;
+    object-fit: contain;
+}
+.signup_form{
+    max-width: 30rem;
+    padding: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0,0.85);
+    margin-top: 5rem;
+}
+.signup_form h1{
+    color: whitesmoke;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.signup_form {
+    display: grid;
+    flex-direction: column;
+}
+.signup_form input{
+    padding: 0.4rem;
+    outline-width: 0;
+    height: auto;
+    width: 99%;
+    margin: 0.2rem 0rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3px;
+    border: none;
+}
+.signup_form button{
+    padding: 0.4rem;
+    width: 100%;
+    margin: 0.2rem 0rem;
+    border: none;
+    color: whitesmoke;
+    background-color: red;
+    font-weight: 550;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.signup_form h4{
+    color: rgb(113, 113, 113);
+}
+.signup_form h4 span{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .signup_logo{
+        width: 9rem;
+        height: 2rem;
+    }
+}
